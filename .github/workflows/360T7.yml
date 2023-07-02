@@ -693,7 +693,7 @@ jobs:
         id: LZY_start
         if: env.LanzhouYun == 'true' && !failure() && !cancelled()
         run: |
-          git clone https://github.com/weigefenxiang/LanZouCloud-API && cd LanZouCloud-API
+          git clone https://github.com/derekxi2021/LanZouCloud-API && cd LanZouCloud-API
           sudo pip install -U pip
           sudo pip install -r requirements.txt
           sudo python3 setup.py install 
