@@ -11,8 +11,8 @@ env:
   VanillaUboot: tru
   PLUGINver: true
   Release: true
-  LanzhouYun: true
-  OneDrive: true
+  LanzhouYun: false
+  OneDrive: false
 
 on:
   workflow_dispatch:
