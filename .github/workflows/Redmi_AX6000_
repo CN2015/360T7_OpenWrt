@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Redmi_AX6000_LEDE
+name: Redmi_AX6000_OpenWrt
 
 env:
   REPO_URL: https://github.com/openwrt/openwrt/
