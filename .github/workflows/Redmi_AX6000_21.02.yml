@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Redmi_AX6000
+name: Redmi_AX6000_immortalwrt
 
 env:
   REPO_URL: https://github.com/hanwckf/immortalwrt-mt798x
