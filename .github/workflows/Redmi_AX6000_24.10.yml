@@ -11,7 +11,7 @@
 name: Redmi_AX6000_24.10
 
 env:
-  REPO_URL: https://github.com/openwrt/luci
+  REPO_URL: https://github.com/openwrt/
   REPO_BRANCH: openwrt-24.10
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: redmi_ax6000.config
