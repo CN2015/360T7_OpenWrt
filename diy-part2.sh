@@ -18,6 +18,10 @@ sed -i "s/hostname='ImmortalWrt'/hostname='OpenWrt'/g" package/base-files/files/
 # 修改时区 UTF-8
 sed -i 's/UTC/CST-8/g'  package/base-files/files/bin/config_generate
 
+# iStore
+git_sparse_clone main https://github.com/linkease/istore-ui app-store-ui
+git_sparse_clone main https://github.com/linkease/istore luci
+
 # 时区
 sed -i 's/time1.apple.com/time1.cloud.tencent.com/g'  package/base-files/files/bin/config_generate
 sed -i 's/time1.google.com/ntp.aliyun.com/g'  package/base-files/files/bin/config_generate
