@@ -51,3 +51,13 @@ sed -i 's/"ADBYBY Plus +"/"广告拦截"/g' `egrep "ADBYBY Plus +" -rl ./`
 sed -i 's/"MWAN3 Helper"/"分流助手"/g' `egrep "MWAN3 Helper" -rl ./`
 sed -i 's/"udpxy"/"电视组播"/g' `egrep "udpxy" -rl ./`
 sed -i 's/"UPnP"/"即插即用"/g' `egrep "UPnP" -rl ./`
+
+cat > package/base-files/files/etc/banner << EOF
+  _______                     ________        __
+ |       |.-----.-----.-----.|  |  |  |.----.|  |_
+ |   -   ||  _  |  -__|     ||  |  |  ||   _||   _|
+ |_______||   __|_____|__|__||________||__|  |____|
+          |__| W I R E L E S S   F R E E D O M
+ -----------------------------------------------------
+ %D %V, %C
+ -----------------------------------------------------
